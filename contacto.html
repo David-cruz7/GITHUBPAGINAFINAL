@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header class="menu-proyecto">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <div>
+                    <div class="iconos">
+                        <img src="img/iconoCiencias.png" alt="ciencias" height="700px">
+                        <img src="img/iconoUabjo.png" alt="uabjo">
+                    </div>
+                </div>
+    
+                <nav class="navegacion">
+                    <a href="index.html">Inicio</a>
+                    <a href="proyectos.html">Proyectos</a>
+                    <a href="blogpersonal.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="galeria.html">Galeria</a>
+                </nav>
+            </div>
+        </div>
+       </header>
+       <h1 class="contactanos">Dudas o aclaraciones, comuniquese por favor</h1>
+
+
+        <section class="seccion-con">
+        </section>
+
+       <main class="contenedor">
+            <h2 class="formulario-llenar">Llena el formulario de Contacto</h2>
+            
+            <form action="" class="formulario">
+                <fieldset>
+                    <legend>INFORMACION PERSONAL</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Nombre">
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="Correo electronico" required>
+
+                    <label for="telefono">Telefono:</label>
+                    <input type="tel" id="telefono" placeholder="telefono" required>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea  id="mensaje" ></textarea>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>INFORMACION SOBRE CURSOS A RECOMENDAR</legend>
+
+                    <label for="opciones"> Cursos </label>
+                    <select id="opciones">
+                        <option value="" disabled selected>-- Seleccione --</option>
+                        <option value="">JabaScritp</option>
+                        <option value="">Html & CSS</option>
+                        <option value="">Angular</option>
+                        <option value="">PHP & MySQL</option>
+                    </select>
+
+                    <label for="opciones">Especialidades</label>
+                    <select id="opciones">
+                        <option value="" disabled selected>-- Seleccione --</option>
+                        <option value="">Master en CSS, Gridd, Flex-box</option>
+                        <option value="">Guia completa de JabaScritp</option>
+                        <option value="">Master en Android & Kotlin</option>
+                    </select>
+
+                    <label for="presupuesto">Costo aprox:</label>
+                    <input type="number" min="0" max="5000">
+                </fieldset>
+
+                <fieldset>
+                    <legend>CONTACTO</legend>
+                    <p>Como desea ser Contactado: </p>
+
+                    <div class="forma-contacto">
+                        <label for="telefono">Telefono</label>
+                        <input type="radio" name="contacto" id="telefono">
+
+                        <label for="correo">Gmail</label>
+                        <input type="radio" name="contacto" id="correo">
+                    </div>
+
+                    <p>Si Eligio Telefono, elija la fecha y la hora</p>
+
+                    <label for="fecha">Fecha:</label>
+                    <input type="date"  id="fecha">
+
+                    <label for="hora">Hora:</label>
+                    <input type="time" id="hora" min="9:00" max="18:00">
+                </fieldset>
+
+                <input type="submit" value="Enviar" class="boton boton-naranja">
+            </form>
+        </main>
+
+        <div class=" contenedor ">
+            <div class="iconos-contactop">
+                <p>Contactame por mis redes sociales: </p>
+                <div class="tamano-imgi">
+                    <a href="https://api.whatsapp.com/send?phone=2878874518&text=hola,%20ingrese%20su%20duda%20o%20motivo%20de%20su%20mensaje%20:)">
+                        <img src="img/iconow.png" alt="iconowatsapp">
+                    </a>
+                    <a href="https://www.facebook.com/alejandro.cazarezlopez.90">
+                        <img src="img/iconof.png" alt="iconofecebook">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+          <footer class="final">
+        <div class="contenedor-footer">
+            <div class="barra">
+                <nav class="navegacion">
+                    <a href="proyectos.html">Proyectos</a>
+                    <a href="blogpersonal.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="galeria.html">Galeria</a>
+                </nav>
+                <p class="parrafo">Todos los Derechos Reservados del Autor: Alejandro Cazarez Lopez 2020 &copy;</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

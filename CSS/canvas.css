@@ -1,0 +1,21 @@
+#canvas, #canvasEstrella, #canvasAtaque, 
+#canvasAnuncio,#canvasPecera,#canvasBola,
+#canvasCasa{
+    border:2px solid #000000;
+    position: center;
+    margin-top: 3rem;
+}
+
+#canvasLLueve,#canvasLibrero{
+    border:2px solid #000000;
+    position: center;
+    margin-top: 3rem;
+}
+
+#canvasCastor{
+    border:2px solid #000000;
+    position: center;
+    margin-top: 3rem;
+}
+
+
